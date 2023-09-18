@@ -154,7 +154,7 @@ Transform:
   - {fileID: 879191171}
   - {fileID: 78676213}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &78676212
 GameObject:
@@ -419,7 +419,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 189.131, y: 240.88, z: 340.24402}
 --- !u!1 &879191170
 GameObject:
@@ -629,7 +629,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6e6bc8c093c54d44192ab15357510bda, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e6bc8c093c54d44192ab15357510bda, type: 3}
       propertyPath: m_LocalScale.x
@@ -687,6 +687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampadaire
       objectReference: {fileID: 0}
+    - target: {fileID: 4052797199018717817, guid: 6e6bc8c093c54d44192ab15357510bda, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa2dffb117b8fda4fb9d4181bef5d682, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -790,7 +794,7 @@ Transform:
   - {fileID: 6523182921844164975}
   - {fileID: 504235594}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2110840896
 PrefabInstance:
@@ -802,7 +806,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8a7a63e968d66fe4da020686ef5999a4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8a7a63e968d66fe4da020686ef5999a4, type: 3}
       propertyPath: m_LocalScale.x
@@ -858,7 +862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8a7a63e968d66fe4da020686ef5999a4, type: 3}
       propertyPath: m_Name
-      value: parkchair
+      value: Banc
       objectReference: {fileID: 0}
     - target: {fileID: 3683701362412171732, guid: 8a7a63e968d66fe4da020686ef5999a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -879,7 +883,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3010380422980038973, guid: ffa0ce07a6119a446a6f50e53e307459, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3010380422980038973, guid: ffa0ce07a6119a446a6f50e53e307459, type: 3}
       propertyPath: m_LocalPosition.x
